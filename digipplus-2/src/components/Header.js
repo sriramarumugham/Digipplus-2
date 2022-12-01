@@ -4,7 +4,11 @@ function Header() {
   return (
     <div className="HeaderSessionContainer">
       <div className="headerWrapper headerSession">
+       
         <div className="searchSession">
+        <div className="mobileView mobilemenu">
+        <i class="fa-solid fa-bars"></i>
+        </div>
           <i class="fa-solid fa-magnifying-glass"></i>
           <input />
         </div>

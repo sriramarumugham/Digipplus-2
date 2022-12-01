@@ -5,8 +5,9 @@ import ActivityItem from "./ActivityItem";
 function CurrentAcitvity() {
   return (
     <>
-      <h2>Current Activity</h2>
+     
       <div className="CurrentAcitvity">
+      <h2>Current Activity</h2>
         <ActivityItem />
         <ActivityItem />
         <ActivityItem />

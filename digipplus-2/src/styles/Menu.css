@@ -37,3 +37,9 @@
   color: black;
   font-weight: 800;
 }
+
+@media screen and (max-width: 1200px) {
+  .menuWrapper {
+    display: none;
+  }
+}

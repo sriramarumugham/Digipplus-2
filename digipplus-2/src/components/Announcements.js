@@ -5,8 +5,9 @@ import AnnouncementItem from './AnnouncementItem';
 function Announcements() {
   return (
    <>
-    <h2>Announcements</h2>
+   
     <div className='AnnouncementsContainer'>
+    <h2>Announcements</h2>
         <AnnouncementItem title="something" content="something"/>
         <AnnouncementItem title="something" content="something"/>
         <AnnouncementItem title="something" content="something"/>

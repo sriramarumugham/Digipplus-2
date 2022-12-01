@@ -1,8 +1,6 @@
 .App {
   display: flex;
   flex-direction: row;
-  /* height: 100%;
-  width: 100%; */
   background-color: antiquewhite;
   justify-content: space-between;
   align-items: start;
@@ -18,4 +16,15 @@
   width: 80%;
   height: 100%;
   box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  #menuList {
+    width: 0px;
+  }
+
+  #rightSession {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
 }

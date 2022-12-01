@@ -21,3 +21,11 @@
     align-items: center;
     gap:25px;
 }
+
+
+@media screen and (max-width: 440px) {
+    .ActivityCardContainer{
+        min-width: 300px;
+        /* height: 350px; */
+    }
+  }
