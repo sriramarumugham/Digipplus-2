@@ -38,6 +38,21 @@
   font-weight: 800;
 }
 
+.mobileMenu{
+  display: block;
+  position: absolute;
+  top:0px;
+  left: 0px;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 5px;
+  box-sizing: border-box;
+  background: linear-gradient(white, rgba(195, 187, 187, 0.8));
+}
 @media screen and (max-width: 1200px) {
   .menuWrapper {
     display: none;

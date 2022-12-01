@@ -64,7 +64,7 @@
   width: 200px;
   padding-left: 15px;
 }
-.userSession > div >h3{
+.userSession > div > h3 {
   /* margin: 0px; */
 }
 .actionSession {
@@ -81,10 +81,8 @@
   border-radius: 50px;
 }
 
-
 @media screen and (max-width: 660px) {
   .homeHeadder {
-   
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -92,5 +90,10 @@
     padding: 0px 20px;
     width: 100%;
     height: 18vh;
+  }
+}
+@media screen and (max-width: 440px) {
+  .homeHeadder {
+    height: 22vh;
   }
 }
