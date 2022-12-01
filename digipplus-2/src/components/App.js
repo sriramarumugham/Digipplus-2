@@ -1,23 +1,20 @@
 import { Route, Routes } from "react-router-dom";
 
 import { Header, Menu } from "../components/index";
+
 import { Home } from "../pages/index";
-import "../styles/App.scss";
+import "../styles/App.css";
 
 function App() {
   return (
     <div className="App">
-      <Menu />
-      <div className="bodySession">
+      <div id="menuList">
+        <Menu />
+      </div>
+      <div id="rightSession">
+        <Header />
         <Home />
       </div>
-      {/* <Header /> */}
-
-      {/* <div className="bodySession">
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </div> */}
     </div>
   );
 }

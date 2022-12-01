@@ -1,0 +1,18 @@
+.AnnouncementsContainer {
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px grey;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  overflow-y: auto;
+  width: 250px;
+  margin: 10px 0px;
+}
+.AnnouncementsContainer::-webkit-scrollbar {
+  display: none;
+}
+.AnnouncementItem {
+  border-bottom: 1px solid rgb(10, 10, 10);
+}

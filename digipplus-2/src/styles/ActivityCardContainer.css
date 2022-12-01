@@ -1,0 +1,23 @@
+.ActivityCardContainer{
+    border:1px solid transparent;
+    border-radius: 20px;
+    padding: 5px 20px;
+    min-width: 350px;
+    height: 150px;
+    border-left: 10px solid #B5A8F0;
+    box-shadow: 1px 1px grey ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;   
+}
+.ActionsContainer{
+    margin:10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap:25px;
+}

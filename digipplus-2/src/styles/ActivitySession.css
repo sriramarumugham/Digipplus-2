@@ -1,0 +1,21 @@
+.ActivitySession {
+  width: 100%;
+  height:150px ;
+  max-width: 830px;
+}
+.ActivitySession > h2 {
+  padding-left: 10px;
+  margin: 5px;
+}
+.ActivityCardslist {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  justify-content: start;
+  align-items: center;
+  padding-left: 10px;
+  gap: 10px;
+}
+.ActivityCardslist::-webkit-scrollbar {
+  display: none;
+}

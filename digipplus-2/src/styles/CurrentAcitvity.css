@@ -1,0 +1,36 @@
+.CurrentAcitvity {
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px grey;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  overflow-y: auto;
+  width: 250px;
+  margin: 10px 0px;
+}
+.ActivityItem {
+  margin: 7px 0px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* // border: 1px solid red; */
+  gap: 20px;
+  /* // height:70px; */
+}
+.ActivityItem > i {
+  font-size: 30px;
+}
+.UserActivityInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.UserActivityInfo > p,
+.UserActivityInfo > h4 {
+  margin: 0px;
+}
+.CurrentAcitvity::-webkit-scrollbar {
+  display: none;
+}
