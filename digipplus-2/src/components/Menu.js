@@ -4,6 +4,7 @@ import { menu } from "../data/index";
 
 import "../styles/Menu.css";
 
+//desktop menu
 function Menu() {
   function renderMenuList(data) {
     return (

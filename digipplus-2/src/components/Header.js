@@ -3,6 +3,8 @@ import { MobileMenu } from ".";
 import "../styles/Header.css";
 
 
+//haeder component with a state to toggle between mobiel and desktop menu
+
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
   return (
@@ -13,6 +15,7 @@ function Header() {
             <div className="mobileView mobilemenu">
               <i
                 class="fa-solid fa-bars"
+                //monileview
                 onClick={() => {
                   setShowMenu(!showMenu);
                 }}
@@ -50,7 +53,9 @@ function Header() {
           </div>
         </div>
 
-        {showMenu && <MobileMenu showMenu={showMenu} setShowMenu={setShowMenu}/>}
+        {showMenu && (
+          <MobileMenu showMenu={showMenu} setShowMenu={setShowMenu} />
+        )}
       </div>
     </>
   );

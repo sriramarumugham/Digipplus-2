@@ -1,13 +1,13 @@
 import React from "react";
-import "../styles/CurrentAcitvity.css";
 import ActivityItem from "./ActivityItem";
+
+import "../styles/CurrentAcitvity.css";
 
 function CurrentAcitvity() {
   return (
     <>
-     
       <div className="CurrentAcitvity">
-      <h2>Current Activity</h2>
+        <h2>Current Activity</h2>
         <ActivityItem />
         <ActivityItem />
         <ActivityItem />

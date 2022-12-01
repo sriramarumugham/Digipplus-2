@@ -1,3 +1,20 @@
+## Hosted on vercel https://digipplus-2.vercel.app/
+
+this is a single page react application
+used  resuable components
+1) ActivitySession = outer container of activity card
+2) ActivityCard = outer container 
+3) ActivityItem = inner content fo activity card
+
+4) Announcements = outer container
+5)  AnnoucementItem = content 
+
+6) CurrentActivity = scrollable container
+7) Header 
+8) Menu
+9) MenuItem =iterates over the data and displays the menu content
+10) Mobile Menu 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

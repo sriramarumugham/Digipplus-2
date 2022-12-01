@@ -81,6 +81,16 @@
   border-radius: 50px;
 }
 
+.mobileView,
+.mobilemenu {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .mobileView,
+  .mobilemenu {
+    display: block;
+  }
+}
 @media screen and (max-width: 660px) {
   .homeHeadder {
     display: flex;

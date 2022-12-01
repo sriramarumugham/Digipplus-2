@@ -6,13 +6,12 @@
   padding: 0px;
   width: 100%;
   height: 85vh;
-  background-color:#DEE6EC ;
-
+  background-color: #dee6ec;
 }
 .homePageActiviyWrapper {
   width: 70%;
   min-width: 800px;
-  background-color:#DEE6EC ;
+  background-color: #dee6ec;
 
   height: 100%;
   display: flex;
@@ -27,8 +26,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:#DEE6EC ;
-
+  background-color: #dee6ec;
 }
 
 @media screen and (max-width: 1120px) {

@@ -3,6 +3,7 @@ import '../styles/ActivitySession.css';
 
 import {ActivityCard} from './index';
 
+//components display the lift of projects and other activity 
 function ActivitySession() {
   return (
     <div className='ActivitySession'>

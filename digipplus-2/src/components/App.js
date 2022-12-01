@@ -1,10 +1,8 @@
-import { Route, Routes } from "react-router-dom";
-
 import { Header, Menu } from "../components/index";
-
 import { Home } from "../pages/index";
 import "../styles/App.css";
 
+// a single page applications
 function App() {
   return (
     <div className="App">

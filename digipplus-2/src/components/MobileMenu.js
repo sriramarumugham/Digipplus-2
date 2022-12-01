@@ -18,7 +18,8 @@ function renderMenuList(data) {
   );
 }
 
-function MobileMenu({showMenu, setShowMenu}) {
+//mobiel Menu
+function MobileMenu({ showMenu, setShowMenu }) {
   return (
     <>
       <div className="mobileMenu">

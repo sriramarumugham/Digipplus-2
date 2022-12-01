@@ -1,5 +1,6 @@
 import React from 'react'
 
+//componnet to display the username and the activity
 function ActivityItem() {
   return (
     <div className='ActivityItem'>
